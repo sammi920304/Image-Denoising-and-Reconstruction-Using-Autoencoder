@@ -30,7 +30,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),          # [0, 255] → [0.0, 1.0]
 ])
 
-# 圖片資料夾路徑（你可以改成任何自己的資料夾）
+# 圖片資料夾路徑
 img_dir = ""
 # 測試集資料夾路徑
 test_img_dir = ""
@@ -206,3 +206,4 @@ for i in range(2):
 
 plt.tight_layout()
 plt.show()
+
